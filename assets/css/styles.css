@@ -1,26 +1,52 @@
+body{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777;
+    /* background-color: #f2f1f2; */
+    background-color:#dedcdf;
+   background-image: url("paper.png");
+    background-repeat: repeat;
+    /* background-color: #878991;
+background-image: url("https://www.transparenttextures.com/patterns/cardboard.png"); */
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+   
+
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    clear: both;
+}
+
+
+header{
+    margin: 0 auto;
+    height: 12%;
+    background-color: #fcfcfc;
+    
+}
 
 h1, h2, h3, h4,h5,h6{
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #4aaaa5;
 }
 
-body{
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #777
-}
-header{
-    margin: 25px;
-}
-
 h1 {
     font-size: 2.5em;
+}
+
+main{
+    margin-top: 5%;
+    background-color: #fcfcfc;
 }
 
 .myName{
     float: left;
     font-size: 2.5em;
-    margin: 20px;
-    padding: 10px;
+    background-color:#50b3aa;
+    padding: 22px;
+    color: #fff;
+    margin-left:6px;
 }
 
 nav{
@@ -34,6 +60,7 @@ nav{
     padding: 14px 16px;
     text-decoration: none;
   font-size: 17px;
+  
 }
 ul{
     list-style-type: none;
@@ -46,9 +73,7 @@ ul{
     margin: 20px;
     padding: 10px;
     float: left;
+    border-right: 1px solid grey;
     
    }
 
-.container{
-    clear: both;
-}

@@ -62,7 +62,7 @@ main{
     width: 180px;
     height: 38px;
     
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
 }
 
 .headshot{

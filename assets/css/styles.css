@@ -228,3 +228,78 @@ footer{
         background-color: #45a049;
      
     }
+
+    /*  MEDIA QUERIES  */
+
+    @media screen and (max-width: 980px){
+        .container{
+            width: 100%
+
+        }
+        main {
+            width: 85%;
+            margin: 5% auto;
+        }
+        .fixed {
+            margin: 0 20%;
+        }
+        
+
+
+    }
+    @media screen and (max-width: 768px){
+        .fixed {
+            margin: 0 10%;
+        }
+        
+    }
+
+    @media screen and (max-width: 640px){
+        .myName {
+            float: none;
+            margin: 0 auto;
+            display: block;
+            width: 100%;
+            text-align: center;
+            
+        }
+
+        .nav-left {
+             
+            width: 100%;
+            text-align: center;
+
+        }
+
+        nav ul li{
+         
+            padding-right: 10px;
+            display: inline-block;
+            float: none;
+          
+           }
+
+           .grid-container{
+               margin: 0 13%;
+           }
+        
+        .grid-container li{
+            border: none;
+            list-style: none;
+     
+        
+        }
+        .fixed ul {
+            display: block;
+            width: 100%;
+            
+        }
+          .headshot  {
+              width: 100%;
+              height: 100%;
+          }
+        
+        
+           
+     
+    }
